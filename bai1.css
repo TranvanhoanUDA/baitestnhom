@@ -83,6 +83,7 @@
 	width: 925px;
 	height: 60px;
 	margin: 0 auto;
+	margin-bottom: 13px;
 }
 .main4 h1{
 	margin: 0;
@@ -167,32 +168,26 @@
 .main5 img.pic-1:hover{
 	transition: 0.5s ease-out;
 	transform: scale(1.15);
-	opacity: 0.6;
 }
 .main5 img.pic-2:hover{
 	transition: 0.5s ease-out;
 	transform: scale(1.15);
-	opacity: 0.6;
 }
 .main5 img.pic-3:hover{
 	transition: 0.5s ease-out;
 	transform: scale(1.15);
-	opacity: 0.6;
 }
 .main5 img.pic-4:hover{
 	transition: 0.5s ease-out;
 	transform: scale(1.15);
-	opacity: 0.6;
 }
 .main5 img.pic-5:hover{
 	transition: 0.5s ease-out;
 	transform: scale(1.15);
-	opacity: 0.6;
 }
 .main5 img.pic-6:hover{
 	transition: 0.5s ease-out;
 	transform: scale(1.15);
-	opacity: 0.6;
 }
 .main5 .nut{
 	width: 128px;
