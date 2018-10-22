@@ -188,3 +188,48 @@ right: 20px;
 	height: 350px;
 	background-color: rgba(255,255,255,0.7);
 }
+.main7{
+	clear: both;
+	width: 925px;
+	height: 50px;
+	/*background: blue;*/
+	margin: 0 auto;
+	padding: 0;
+}
+.main7 p.text7{
+	float: left;
+	/*background: red;*/
+	margin: 0;
+	width: 35%;
+	height: 100%;
+	line-height: 50px;
+	text-transform: capitalize;
+	text-indent:5px;
+	color: #fcc81d;
+	font-family: sans-serif;
+}
+.main7 .box7{
+	float: left;
+	width: 65%;
+	height: 100%;
+/*	background: yellow;*/
+}
+.box7 ul{
+	float: right;
+	width: 50%;
+	height: 100%;
+	/*background: green;*/
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.box7 ul li {
+	float: left;	
+	width:20%;
+	height: 100%;
+	/*background: blue;*/
+	margin-left: 1%; 
+}
+.box7 ul li img{
+	margin-top: 13px;
+}
