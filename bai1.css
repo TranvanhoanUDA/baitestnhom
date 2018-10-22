@@ -1,0 +1,84 @@
+/*w 925
+h 420
+
+290
+190
+
+90 35*/
+.main3{
+	width: 925px;
+	height: 420px;
+	margin: 0 auto;
+	background: #E16A0A;
+}
+.main3 h2{
+	margin: 0;
+	text-align: center;
+	margin-bottom: 15px;
+	color: white;
+}
+.main3 p{
+	margin: 0;
+	text-align: center;
+	padding: 0 100px;
+	margin-bottom: 15px;
+	color: white;
+}
+.main3 .box{
+	float: left;
+	width: 290px;
+	height: 300px;
+	margin-left: 9.15px;
+	margin-right: 9.15px;
+	overflow: hidden;
+}
+.main3 .box img{
+	width: 290px;
+	height: 180px;
+}
+.main3 .box .nho{
+	width: 290px;
+	height: 120px;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+	overflow: hidden;
+}
+.main3 .box .nho h4{
+	margin: 0;
+	padding-left: 2px;
+	color: white;
+}
+.main3 .box .nho p{
+	margin: 0;
+	text-align: justify;
+	padding: 0;
+	margin-bottom: 5px;
+	padding: 0 2px;
+}
+.main3 .box .nho a{
+	margin: 0;
+	display: block;
+	width: 80px;
+	height: 30px;
+	background: #AD5E18;
+	text-decoration: none;
+	font-size: 17px;
+	line-height: 30px;
+	text-align: center;
+	border: solid 2px white; 
+	margin-left: 2px;
+	color: white;
+}
+.main3 .box:hover img{
+	display: none;
+}
+.main3 .box:hover .nho{
+	height: 100%;
+}
+.main3 .box .nho p.an{
+	display: none;
+}
+.main3 .box:hover .nho p.an{
+	display: block;
+}
+
