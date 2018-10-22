@@ -2,7 +2,7 @@
 	width: 925px;
 	height: 420px;
 	margin: 0 auto;
-	background: #E16A0A;
+	background: #F09B08;
 }
 .main3 h2{
 	margin: 0;
@@ -24,6 +24,7 @@
 	margin-left: 9.15px;
 	margin-right: 9.15px;
 	overflow: hidden;
+	position: relative;
 }
 .main3 .box img{
 	width: 290px;
@@ -35,6 +36,10 @@
 	transition-duration: 0.5s;
 	transition-timing-function: linear;
 	overflow: hidden;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background: #F09B08;
 }
 .main3 .box .nho h4{
 	margin: 0;
@@ -53,7 +58,7 @@
 	display: block;
 	width: 80px;
 	height: 30px;
-	background: #AD5E18;
+	background: #EEC018;
 	text-decoration: none;
 	font-size: 17px;
 	line-height: 30px;
@@ -74,4 +79,144 @@
 .main3 .box:hover .nho p.an{
 	display: block;
 }
-
+.main4{
+	width: 925px;
+	height: 60px;
+	margin: 0 auto;
+}
+.main4 h1{
+	margin: 0;
+	text-align: center;
+	margin-top: 5px;
+	float: left;
+	width: 220px;
+	height: 50px;
+	background: #FFC510;
+	color: white;
+	font-size: 25px;
+	line-height: 50px;
+	border-radius: 50px 297px 50px 176px;
+}
+.main4 ul{
+	margin: 0;
+	margin-top: 5px;
+	float: right;
+	width: 600px;
+	height: 50px;
+	list-style: none;
+	padding: 0;
+}
+.main4 ul li{
+	float: left;
+	display: block;
+	width: 20%;
+	height: 100%;
+}
+.main4 ul li a{
+	display: block;
+	text-decoration: none;
+	font-size: 15px;
+	color: #FFC510; 
+	line-height: 50px;
+}
+.main4 ul li.arc a{
+	margin-left: -70px;
+}
+.main4 ul li.int a{
+	margin-left: -55px;
+}
+.main4 ul li.work a{
+	margin-left: -10px;
+}
+.main4 ul li.off a{
+	margin-left: -15px;
+}
+.main4 ul li a:hover{
+	color: black;
+}
+.main5{
+	width: 925px;
+	height: 450px;
+	margin: 0 auto;
+	position: relative;
+}
+.main5 img{
+	width: 275px;
+	height: 198px;
+}
+.main5 img.pic-1{
+	float: left;
+}
+.main5 img.pic-2{
+	float: left;
+	margin-left: 50px;
+}
+.main5 img.pic-3{
+	float: right;
+}
+.main5 img.pic-4{
+	margin-top: 54px;
+}
+.main5 img.pic-5{
+	margin-left: 50px;
+}
+.main5 img.pic-6{
+	float: right;
+	margin-top: 54px;
+}
+.main5 img.pic-1:hover{
+	transition: 0.5s ease-out;
+	transform: scale(1.15);
+	opacity: 0.6;
+}
+.main5 img.pic-2:hover{
+	transition: 0.5s ease-out;
+	transform: scale(1.15);
+	opacity: 0.6;
+}
+.main5 img.pic-3:hover{
+	transition: 0.5s ease-out;
+	transform: scale(1.15);
+	opacity: 0.6;
+}
+.main5 img.pic-4:hover{
+	transition: 0.5s ease-out;
+	transform: scale(1.15);
+	opacity: 0.6;
+}
+.main5 img.pic-5:hover{
+	transition: 0.5s ease-out;
+	transform: scale(1.15);
+	opacity: 0.6;
+}
+.main5 img.pic-6:hover{
+	transition: 0.5s ease-out;
+	transform: scale(1.15);
+	opacity: 0.6;
+}
+.main5 .nut{
+	width: 128px;
+	height: 40px;
+	background: yellow;
+	margin-left: 43%;
+	margin-top: 22px;
+}
+.main5 .nut p{
+	margin: 0;
+	text-align: center;
+	line-height: 35px;
+}
+.main5 .nut a{
+	display: block;
+	width: 128px;
+	height: 40px;
+	text-decoration: none;
+	color: white;
+}
+.main5 .nut a:hover{
+	color: black;
+}
+.main5 .nut:hover{
+	transition-duration: 0.3s;
+	transform: scale(1.2);
+}
