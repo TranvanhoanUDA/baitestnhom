@@ -1,0 +1,190 @@
+.main1{
+	margin: 0 auto;
+	width: 925px;
+	height: 96px;
+	clear: both;
+}
+.main1 .logo{
+	float: left;
+	width: 110px;
+	height: 96px;
+	background-image: url(http://www.furtunalawyers.pro/wp-content/uploads/2012/07/company-name.jpg);
+	position: relative;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+}
+.main1 .diachi{
+	float: left;
+	width: 815px;
+	height: 20%;
+}
+.diachi ul{
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	margin-left: 150px;
+}
+.diachi ul li{
+	float: left;
+	display: block;
+	width: 22%;
+	height: 100%;
+	text-align: center;
+	position: relative;
+	padding-left: 10px;
+	color: #E47452;
+}
+.diachi ul.lienhe{
+	float: right;
+}
+.diachi ul.lienhe li{
+	float: left;
+	margin-left:  80px;
+}
+.diachi ul.lienhe li.mon{
+	float: left;
+right: 100px;
+}
+.diachi ul.lienhe li.so{
+	float: left;
+right: 20px;
+}
+
+.main1 .click{
+	float: left;
+	margin-top: 30px;
+	width: 815px;
+	height: 80%;
+	background:#D3CA35; 
+}
+.click ul{
+	margin: 0;
+	padding-left: 60px;
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+.click ul li{
+	float: left;
+	display: block;
+	width: 15%;
+	height: 100%;
+	line-height: 80px;
+	text-align: center;
+	position: relative;
+}
+.click ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	color: black;
+	display: block;
+	width: 100%;
+	height: 100%;
+	color:white;
+}
+.click ul li:hover{
+}
+.click ul li.active:hover{
+	background: #D3CA35;
+
+}
+.click ul li ul{
+	float: right;
+	right: 0%;
+	z-index: 100;
+	display: none;
+}
+.click ul li:hover ul{
+	display: block;
+}
+.click ul li ul li{
+	line-height: 40px;
+	width: 100px;
+	height: 60px;
+	padding-top: 10px;
+}
+.click ul li ul li a{
+	color: red;
+}
+.click ul li ul li:hover{
+	transition-duration: 1s;
+	transform: rotate(0deg) scale(2) ;
+}
+.click ul li ul li a:hover{
+	color: #EF9A14;
+	transform:  scale(1.5) ;
+}
+.main2{
+	clear: both;
+	width: 925px;
+	height: 350px;
+	background: pink;
+	margin: 0 auto;
+	position: relative;
+}
+.main2 .pic{
+	float: left;
+	background-image : url(https://nganhangphapluat.thukyluat.vn/images/CauHoi_Hinh/bfe8cd84-abf2-40c0-a70d-adcc01138b5c.jpg);
+	width: 925px;
+	height: 350px;
+	background-size: 100% 100%;
+	transition-duration: 1s;
+}
+.main2 h1{
+	position: absolute;
+	top: 70px;
+	left: 5%;
+	line-height: 10px;
+	color: #C92D18;
+	font-family: helvetica;
+	transition-duration: 1s;
+}
+.main2 p{
+	position: absolute;
+	display: block;
+	width: 400px;
+	height: 20px;
+	top: 100px;
+	left:5%;
+	line-height: 15px;
+	color: pink;
+	font-family: helvetica;
+	transition-duration: 2s;
+}
+.main2 .view{
+	display: block;
+	width: 90px;
+	height: 35px;
+	border-radius: 5px;
+	background: #4949C0;
+	position: absolute;
+	top: 150px;
+	left: 5%;
+	transition-duration: 1s;
+}
+
+.main2:hover .view{
+	width: 200px;
+	height: 100px;
+    left: 40%;
+    top: 200px;
+    color: red;
+    font-size: 20px;
+    background: #FFFFFF;
+     background-color: rgba(255,255,255,0.7);
+}
+.main2:hover p{
+	left: calc(50% - 200px);
+	text-align: center;
+}
+.main2:hover h1{
+	left: calc(50% - 200px);
+}
+.main2:hover .pic{
+	width: 925px;
+	height: 350px;
+	background-color: rgba(255,255,255,0.7);
+}
