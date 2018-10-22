@@ -1,0 +1,389 @@
+.main3{
+	clear: both;
+	width: 1205px;
+	height: 265px;
+	background: #D0ECF0;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.main3 img{
+	float: left;
+	width: 460px;
+	height: 100%;
+	transition-duration: 1s;
+}
+.main3 .box{
+	float: left;
+	width: 745px;
+	height: 100%;
+	background: #D0ECF0;
+	transition-duration: 1s;
+}
+.main3 .box h2{
+	text-align: center;
+	display: block;
+	width: 160px;
+	height: 30px;
+	border-bottom: solid 3px #EE8218;
+	margin: 0 auto;
+	color: #EE8218;
+	margin-top: 10px;
+}
+.main3 .box p{
+	padding: 0 50px;
+}
+.main3 .box a{
+	margin: 0;
+	display: block;
+	width: 145px;
+	height: 50px;
+	background: #EEC018;
+	text-decoration: none;
+	font-size: 19px;
+	line-height: 50px;
+	text-align: center;
+	border: solid 2px white; 
+	margin-left: 2px;
+	color: white;
+	float: right;
+	margin-right: 50px;
+}
+.main3:hover img{
+	display: none;
+}
+.main3:hover .box{
+	margin-left: 230px;
+}
+.main6{
+	clear: both;
+	width: 1205px;
+	height: 75px;
+	background: #F2D424;
+	margin:0 auto;
+}
+.main6 h1{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	padding-top: 15px;
+}
+.main4{
+	clear: both;
+	margin: 0 auto;
+	padding:0;
+	width: 1205px;
+	height:425px;
+	/*background: blue;*/
+}
+.main4 h3.text4{
+	float: left;
+	margin: 0;
+	width: 100%;
+	height: 30px;
+	/*background: green;*/
+	text-align: center;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color:  #fcc81d;
+	word-spacing: 5px;
+}
+.main4 .line4{
+	float: left;
+	width: 15%;
+	height: 3px;
+	margin-left: 43%;
+	background:#fcc81d; 
+}
+.main4 .box4{
+	float: left;
+	margin-top: 3px;
+	width: 100%;
+	height:392px;
+	/*background: red;*/
+}
+.box4 .box-1{
+	float: left;
+	width:290px;
+	height: 100%;
+	/*background: green;*/
+	margin-right:11px;
+}
+.box-1 img.pic{
+	float: left;
+	width: 100%;
+	height:50%;
+}
+.box-1 h4.box-1-text{
+	float: left;
+	margin: 0;
+	width:100%;
+	height:10%;
+	/*background: red;*/
+	line-height: 30px; 
+	text-indent: 5px;
+	color:#fcc81d;
+	font-family: sans-serif; 
+}
+.box-1 p.box-1-p{
+	float: left;
+	margin: 0;	
+	width:100%;
+	height:20%;
+	/*background: yellow;*/
+	font-size: 13px;
+}
+.box-1 button{
+	height: 10%;
+	width: 50%;
+	color: white;
+	background:#fcc81d; 
+	border: 0px;
+}
+.box-1 button:hover{
+	background: red;
+}.main1{
+	clear: both;
+	width: 1205px;
+	height: 75px;
+	margin: 0 auto;
+}
+.main1 .construc{
+	width: 230px;
+	height: 100%;
+	float: left;
+}
+.main1 .construc img{
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 25px;
+}
+.main1 .construc h1{
+	font-size: 23px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 25px;
+}
+.main1 ul{
+	margin: 0;
+	padding: 0;
+	float: right;
+	display: block;
+	width: 800px;
+	height: 100%;
+	background: #429df7;
+	list-style: none;
+	padding-left: 175px;
+}
+.main1 ul li{
+	display: block;
+	width: 15.5%;
+	height: 100%;
+	float: left;
+	line-height: 70px;
+	text-align: right;
+}
+.main1 ul li.thu-vien{
+	margin-left: 35px;
+}
+.main1 ul li.du-an{
+	margin-right: 5px;
+}
+.main1 ul li a{
+	text-decoration: none;
+	color: white;
+}
+.main1 ul li a:hover{
+	text-decoration: underline;
+}.main2{
+	clear: both;
+	width: 1205px;
+	height: 450px;
+	background: pink;
+	margin: 0 auto;
+	position: relative;
+	background-image : url(https://nganhangphapluat.thukyluat.vn/images/CauHoi_Hinh/bfe8cd84-abf2-40c0-a70d-adcc01138b5c.jpg);
+	width: 1205px;
+	height: 450px;
+	background-size: 100% 100%;
+	transition-duration: 1s;
+}
+.main2 .ssss{
+	width: 450px;
+	height: 230px;
+	background: #3243C0;
+	background-color: rgba(65,83,222,0.5);
+	position: absolute;
+	top: 80px;
+	left: 10px;
+	transition-duration: 1s;
+}
+.main2 h1{
+	position: absolute;
+	top: 70px;
+	left: 5%;
+	line-height: 10px;
+	color: #EFF803;
+	font-family: helvetica;
+	transition-duration: 1s;
+	font-size: 20px;
+    border-bottom: 1 solid black;
+}
+.main2 .ke{
+	width: 100px;
+	height: 3px;
+	background: yellow;
+	margin-top: 100px;
+	float: left;
+	margin-left: 10px;
+	transition-duration: 1.5s;
+}
+.main2 .ke-them{
+	width: 300px;
+	height: 1px;
+	background:white;
+	float: left;
+	margin-top: 100px;
+}
+.main2 p{
+	clear: both;
+	position: absolute;
+	display: block;
+	width: 400px;
+	height: 20px;
+	top: 100px;
+	left:5%;
+	line-height: 15px;
+	color: white;
+	font-family: helvetica;
+	transition-duration: 2s;
+	font-size: 10px;
+}
+.main2 .view{
+	display: block;
+	width: 90px;
+	height: 35px;
+	border-radius: 5px;
+	background: #EFF803;
+	position: absolute;
+	top: 150px;
+	left: 5%;
+	transition-duration: 1s;
+}
+
+.main2:hover .view{
+	width: 200px;
+	height: 100px;
+    left: 40%;
+    top: 200px;
+    color: white;
+    font-size: 20px;
+    background: #EFF803;
+}
+.main2:hover p{
+	left: calc(50% - 200px);
+	text-align: center;
+}
+.main2:hover h1{
+	left: calc(50% - 200px);
+}
+.main2:hover .ssss{
+	width: 100%;
+	height: 100%;
+	left:0;
+	top: 0;
+}
+.main2:hover .ke{
+	margin-left: 30%;
+	height: 1px;
+	background: white;
+}
+.main5{
+	width: 1205px;
+	height: 540px;
+	clear: both;
+	margin: 0 auto;
+}
+.main5 h5{
+	font-size: 25px;
+	margin: 0 auto;
+	margin-left: 43%;
+	padding-top: 10px;
+	color: #DEDC27;
+}
+.main5 .line{
+	width: 200px;
+	height: 4px;
+	background: yellow;
+	margin-left: 40%;
+}
+.main .click{
+	width: 100%;
+	height: 40px;
+}
+.click ul{
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+}
+.click ul li{
+	float: left;
+	display: block;
+	width: 12%;
+	height: 100%;
+	text-align: center;
+	position: relative;
+	padding-left: 40px;
+	color: #E47452;
+}
+.click ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	color:#DEDC27;
+	margin-left: 10px;
+}
+.main5 .pic{
+	float: left;
+	margin-top: 20px;
+	width: 100%;
+	height: 450px;
+}
+.pic .anh{
+	float: left;
+	width: 240px;
+	height: 200px;
+	background-image: url(http://image.plo.vn/w653/Uploaded/2018/livotqmv/2017_05_03/xay-dung_scly_thumb.jpg);
+	position: relative;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+	margin-left: 50px;
+	margin-top: 15px;
+	overflow: hidden;
+}
+.pic .anh .nen{
+	background: #1EAAE5;
+	position: relative;
+	margin-top: 135px;
+	opacity: 0.6;
+}
+.pic .anh p{
+	text-align: center;
+	margin-top: 0.5px;
+}
+.pic .anh:hover .nen{
+	margin: 0;
+	transition-duration: 2s;
+	height:220px;
+	background:#A060F7;
+}
+.pic .anh:hover .nen p{
+	color: red;
+	padding-top: 20px;
+	transform:  scale(1.2) ;
+}
