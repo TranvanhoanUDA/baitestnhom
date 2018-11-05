@@ -80,23 +80,24 @@
 	.menu{
 		position: relative;
 		width: 100%;
+		height: 150px;
 	}
 
 	.menu ul{
 		margin: 0;
 		padding: 0;
 		position: absolute;
-		margin-top: 115px;
+		margin-top: 30px;
 		left: 0px;
 		width: 100%;
 	}
 	.menu ul li{
 		width: 20%;
+		margin-left: 180px;
 	}
 	.menu ul li a{
 		display: block;
 		width: 13%;
-		height: 30px;
 		padding-left: 15px;
 	}
 	.menu h2{
@@ -197,21 +198,21 @@
 	height: 100%;
 }
 .main2 .ssss{
-	width: 40%;
+	width: 50%;
 	height: 280px;
 	position: absolute;
 	top: 80px;
 	left: 8%;
 	transition-duration: 1s;
 }
-.main2 h3{
+.main2 .sss h3{
 	line-height: 10px;
 	color: #EFF803;
 	font-family: helvetica;
 	transition-duration: 1s;
 	color: white;
 }
-.main2 h1{
+.main2 .sss h1{
 	line-height: 10px;
 	color: #EFF803;
 	font-family: helvetica;
@@ -219,7 +220,7 @@
 	font-size: 70px;
 	color: white;
 }
-.main2 h2{
+.main2 .sss h2{
 	line-height: 10px;
 	color: #EFF803;
 	font-family: helvetica;
@@ -378,9 +379,10 @@
 	line-height: 15px;
 }
 .main4{
+	clear: both;
 	margin: 0 auto;
 	width: 1020px;
-	height: 800px;
+	height: 600px;
 }
 .main4 h4{
 	display: block;
@@ -472,48 +474,237 @@
 	transform:  scale(1.2) ;
 }
 @media screen and (max-width:480px){
-.main4{
-	width: 100%;
-}	
-.main4 img{
-	font-size: 50px;
-}
-.main4 .pic{
-	float: left;
-	width: 100%;
-	margin-left: 10%;
-}
-.pic .anh{
-	width: 60%;
-	height: 300px;
-	margin-top: 10%;
-}
-.pic .anh h4{
-	float: right;
-	margin-right: 10%;
-}
+	.main4{
+		width: 100%;
+		height: auto;
+	}	
+	.main4 img{
+		font-size: 50px;
+	}
+	.main4 .pic{
+		float: left;
+		width: 100%;
+		margin-left: 10%;
+	}
+	.pic .anh{
+		width: 60%;
+		height: 300px;
+		margin-top: 10%;
+	}
+	.pic .anh h4{
+		float: right;
+		margin-right: 10%;
+	}
 }
 @media screen and (max-width:576px){
-.main4{
-	width: 100%;
+	.main4{
+		width: 100%;
+		height: 1000px;
+	}
+	.main4 p{
+		margin-left: -1%;
+	}	
+	.main4 .pic{
+		float: left;
+		width: 100%;
+		margin-left: 10%;
+	}
+	.pic .anh{
+		width: 60%;
+		height: 600px;
+		margin-top: 10%;
+	}
+	.pic .anh h4{
+		float: right;
+		margin-right: 10%;
+	}
 }
-.main4 p{
-	margin-left: -1%;
-}	
-
-.main4 .pic{
+.city{
+	width: 1020px;
+	height: 400px;
+	margin: 0 auto;
+}
+.city .ke{
+	width: 480px;
+	height: 80px;
+	margin: 0 auto;
+}
+.city .ke .lie1{
 	float: left;
+	margin-top: 5px;
+	width: 10%;
+	height: 2px;
+	background: #FE9500;
+	border-radius: 2px;
+	margin-left: 200px;
+}
+.city .ke .lie2{
+	float: left;
+	width: 1%;
+	height: 10px;
+	border-radius: 50%;
+	border: 2px solid #FE9500; 
+}
+.city .ke .lie3{
+	float: left;
+	margin-top: 5px;
+	width: 10%;
+	height: 2px;
+	background: #FE9500;
+	border-radius: 2px;
+}
+.city .ke h2{
+	clear: both;
+	margin: 0;
+	font-style: unset;
+	text-align: center;
+}
+.city .ke p.title{
+	clear: both;
+	margin: 0;
+	font-style: unset;
+	text-align: center;
+}
+.city .funciton{
+	width: 90%;
+	height: 300px;
+	margin-left: 5%;
+}
+.city .funciton .fuc{
+	width: 23%;
+	height: 300px;
+	float: left;
+	margin-left: 1.7%;
+	position: relative;
+	border: 1px solid gray;
+
+}
+.city .funciton .fuc img{
+	display: block;
 	width: 100%;
-	margin-left: 10%;
+	height: 120px;
+	overflow: hidden;
+	transition: .5s ease;
 }
-.pic .anh{
+.city .funciton .fuc h3{
+margin: 0;
+text-align: center;
+line-height: 50px;
+}
+
+.city .funciton .fuc p.fuci{
+	margin: 0;
+	display: block;
+	width: 50%;
+	height: 40px;
+	float: left;
+}
+.city .funciton .fuc p.mna{
+	text-align: right;
+}
+.city .funciton .fuc a{
+	text-decoration: none;
+	color: gray;	
+}
+.city .funciton .fuc a.READ{
+	text-decoration: none;
+	display: block;
 	width: 60%;
-	height: 600px;
-	margin-top: 10%;
+	height: 40px;
+	background: #282828;
+	position: absolute;
+	bottom: 10px;
+	left: 30%;
+	text-align: center;
+	line-height: 40px;
+	border-bottom-left-radius: 40px;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 80px;
+	color: white;
+		overflow: hidden;
+	transition: .5s ease;
 }
-.pic .anh h4{
-	float: right;
-	margin-right: 10%;
+.city .funciton .fuc a.READ:hover{
+	background: #4B4B4B;
+	text-decoration: none;
 }
+.city .funciton .fuc a:hover{
+	text-decoration: underline;
+}
+.city .funciton .fuc:hover img{
+	height: 0px;
+}
+.city .funciton .fuc:hover a.READ{
+	bottom: 50px;
+}
+.city .funciton .fuc:hover{
+	background: 	
+}
+@media screen and (max-width: 480px){
+	.city {
+		width: 100%;
+	}
+	.city .funciton .fuc{
+		clear: both;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+	.city .funciton .fuc{
+		width: 100%;
+	}
+	.city h2{
+		margin: 0 auto;
+		font-style: unset;
+		text-align: center;
+		position: absolute;
+		top: 15px;
+		left: 32%;
+	}
+	.city p.title{
+		margin: 0;
+		font-style: unset;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 568px){
+	.city {
+		width: 90%;
+		margin-top: 1670px;
+		height: 1000px;
+		margin-left: 5%;
+	}
+	.city .funciton{
+		width: 100%;	
+
+	}
+	.city .funciton .fuc{
+		margin-top: 10px;
+		width: 100%;
+	}
+	.city .lie1{
+	width: 10%;
+	height: 2px;
+	background: #FE9500;
+	border-radius: 2px;
+	}
+	.city .lie2{
+		margin:0 auto;
+	}
+	.city .lie3{
+		width: 10%;
+		height: 2px;
+		background: #FE9500;
+		border-radius: 2px;
+	}
+	.city h2{
+		margin: 0 auto;
+		font-style: unset;
+		text-align: center;
+	}
+	.city p.title{
+		margin: 0;
+		font-style: unset;
+		text-align: center;
+	}
 }
 
