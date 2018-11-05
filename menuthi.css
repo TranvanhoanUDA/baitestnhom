@@ -108,4 +108,79 @@
 		background: yellow;
 	}
 }
-
+.slideshow{
+	margin: 0 auto;
+	width: 1020px;
+	height: 300px;
+	background: black;
+}
+.slideshow .box{
+	float: left;
+	width: 30%;
+	height: 100%;
+	margin: 0 0 0 2.5%;
+	overflow: hidden;
+}
+.box h3.text{
+	float: left;
+	width: 100%;
+	height: 20%;
+	margin: 0;
+	color: white;
+	text-align: center;
+	line-height: 90px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+.box img.pic{
+	width: 10%;
+	height: 10%;
+	margin: 0 0 0 45%;
+}
+.box h3.text3{
+	float: left;
+	width: 100%;
+	height:10%;
+	margin: 0;
+	text-align: center;
+	color: #eff252;
+	font-size: 15px;
+}
+.box p{
+	float: left;
+	width: 80%;
+	height: 30%;
+	margin: 0 0 0 10%;
+	text-indent: 5px;
+	color: white;
+}
+.box button{
+	float: left;
+	width: 20%;
+	height: 10%;
+	border:0px;
+	margin-left: 40%;
+	color: white;
+	background: black;
+}
+.slideshow .box:hover img{
+	display: none;
+}
+.slideshow .box p.p{
+	display: none;
+}
+.slideshow .box:hover p.p {
+	display: block;
+}
+@media screen and (max-width: 576px){
+	.slideshow{
+		width:100%;
+		height: auto;
+		background:#000000;
+	}
+	.slideshow .box{
+		float: left;
+		width: 100%;
+		background: black;
+	}
+}
